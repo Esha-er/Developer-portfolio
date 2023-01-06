@@ -13,9 +13,22 @@
     font-weight: 700;
     height: 64px;
     border: 0;
-    padding: 18px 35px;
+    padding: 18px 24px;
     background-color: rgba(253, 110, 10, 1);
     border-radius: 5px;
+}
+.btn-secendory {
+    color: rgba(253, 110, 10, 1);
+    background-color: rgb(255, 248, 243);
+    font-size: 20px;
+    font-weight: 700;
+    height: 64px;
+    width: 200px;
+    padding: 18px 35px;
+    margin-left: 30px;
+    border: 1px solid rgba(253, 110, 10, 1);
+    border-radius: 5px;
+
 }
 
 .header {
