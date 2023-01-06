@@ -162,3 +162,62 @@ section {
     color: #757575;
 }
 /* resume style  */
+
+.resume-content {
+    display: flex;
+    gap: 25px;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume .sub-title {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.resume .description {
+    color: rgba(117, 117, 117, 1);
+}
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+/* contact section style  */
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title {
+    text-align: left;
+    margin-bottom: 45px;
+}
+.contact input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+    width: 100%
+    
+}
+/* input {
+    height: 50px;
+} */
+.contact .section-description {
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 20px;
+}
+.contact a {
+    text-decoration: none;
+
+}
